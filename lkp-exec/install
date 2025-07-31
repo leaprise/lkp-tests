@@ -218,7 +218,7 @@ install_packages() {
 	echo "Use: $LKP_SRC/distro/installer/$distro install $generic_packages"
 	[ -n "$DRY_RUN" ] && return
 
-	if [ "$distro" = "centos" -o "$distro" = "aliyun" ]; then
+	if [ "$distro" = "centos" -o "$distro" = "aliyun" -o "$distro" = "openeuler" ]; then
 		local ocfs2_tools_name=$(echo "$generic_packages" | grep 'ocfs2-tools')
 		if [ -n "$ocfs2_tools_name" ]; then
 			. $LKP_SRC/distro/$distro

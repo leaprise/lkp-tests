@@ -1,0 +1,6 @@
+libcap-ng0: libcap-ng
+libfdt1: libfdt
+libpcre3-dev: pcre-devel
+libspice-server1:
+libusb-1.0-0-dev: libusb1-devel
+libusb-1.0-0: libusb

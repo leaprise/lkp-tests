@@ -201,6 +201,12 @@ detect_system()
 		_system_version="$(awk -F'=' '$1=="VERSION_ID"{print $2}'  ${rootfs}/etc/os-release | head -n 1)"
 		_system_name="Exaleap-riscv-linux"
 	elif
+                [ -f ${rootfs}/etc/os-release ] &&
+                        GREP_OPTIONS="" \command \grep 'ID="openEuler"' ${rootfs}/etc/os-release >/dev/null
+        then
+		_system_version="$(awk -F'=' '$1=="VERSION_ID"{gsub(/"/,"");print $2}'  ${rootfs}/etc/os-release | \command \awk -F. '{print $1}' | head -n 1)"
+                _system_name="OpenEuler"
+	elif
 		[ -f ${rootfs}/etc/fedora-release ]
 	then
 		_system_name="Fedora"

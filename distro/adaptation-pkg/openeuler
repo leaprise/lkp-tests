@@ -1,0 +1,122 @@
+adrestia::
+aim7::
+aim9::
+analyze-suspend::
+autonuma-benchmark::
+avocado::
+blktests::
+blogbench::
+build-nvml: nvml
+bust-shm-exit::
+cassandra::
+chromeswap::
+cyclictest::
+daxctl::
+dbench: tbench
+device-dax: ndctl
+eatmem: vm-scalability
+ebizzy::
+energy: perf
+filebench::
+fsmark::
+ftq::
+fwq::
+fxmark::
+hackbench::
+hwsim::
+igt::
+iozone::
+jitter::
+kbuild::
+kernbench::
+kernel-selftests::
+ku-latency::
+kvm-kernel-boot-test::
+kvm-unit-tests-qemu::
+kvm-unit-tests::
+leaking-addresses::
+lib-micro::
+libfdt-dev::
+libhugetlbfs-test::
+liblz-dev: lzlib
+liboop-dev: liboop
+linkbench:
+linpack::
+lkvs::
+lmbench3::
+ltp::
+lz4-test::
+makepkg::
+mce-log::
+mce-test::
+mdadm-selftests::
+mutilate::
+ndctl::
+nepim::
+netperf::
+netpipe::
+nuttcp::
+nvdimm: ndctl
+nvml::
+ocfs2test::
+oltp::
+openssl-speed::
+otc-ddt::
+packetdrill::
+pbzip2::
+pepc::
+perf-bench-futex: perf
+perf-c2c: perf
+perf-event-tests::
+perf-mem: perf
+perf-node: perf
+perf-probe: perf
+perf-profile: perf
+perf-record-report: perf
+perf-report-srcline: perf
+perf-sanity-tests: perf
+perf-stat: perf
+perf::
+pft::
+phoronix-test-suite::
+phpbench::
+piglit::
+pixz::
+plzip::
+pm-qa::
+pmbench::
+pmu-tools::
+postmark::
+pybench::
+qat::
+qemu-next::
+qperf::
+reaim::
+redis-server::
+rocksdb::
+rt-app::
+rt-tests::
+schbench::
+simd-stress::
+sockperf::
+stream::
+stress-ng::
+stutter::
+swapin: vm-scalability
+sysbench-fileio::
+tbench::
+thrulay::
+tinymembench::
+tlbflush::
+toplev: pmu-tools
+trace-cmd::
+trinity-static-i386::
+trinity-static-x86_64::
+trinity::
+turbostat: kernel-tools
+unixbench::
+uperf::
+v4l2::
+vm-scalability::
+will-it-scale::
+xfstests::
